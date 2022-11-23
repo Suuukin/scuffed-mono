@@ -1,5 +1,3 @@
-import os
+import sys
 
-script_dir = os.path.dirname(__file__)
-
-print(script_dir)
+sys.setrecursionlimit(5000)
